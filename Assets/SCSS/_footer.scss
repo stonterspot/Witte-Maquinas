@@ -1,0 +1,69 @@
+// FOOTER // 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+.footer {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  padding: 50px 20px 20px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 15px;
+  color: #00e676;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #cccccc;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #00e676;
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 15px;
+}
+
+.whatsapp-footer {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #00e676;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.whatsapp-footer:hover {
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}

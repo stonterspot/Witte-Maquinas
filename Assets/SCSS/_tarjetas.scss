@@ -1,0 +1,79 @@
+$primary-color: white;
+$px-standar:20px;
+
+.tarjeta {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: $px-standar;
+    justify-content: center;
+    padding: $px-standar;
+    background-color: rgb(66, 63, 63);
+    position: relative;
+    
+  }
+  
+  .tarjeta img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    transition: transform 0.3s ease;
+  }
+  
+  .tarjeta img:hover {
+    transform: scale(1.05);
+  }
+  .tarjeta.text-con {
+    position:absolute;
+    bottom: 30px;
+    left: 30px;
+  }
+
+  .tarjeta h2{
+    color: $primary-color;
+  }
+  .ee {
+    background-color: #1ebc4a;
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 350px;
+    margin: 40px auto;
+    text-align: center;
+    color: white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    animation: change-color 2s linear infinite;
+
+  }
+  @keyframes change-color {
+    from { 
+      background: #1ebc4a;
+    }
+    to {
+      background: rgb(4, 61, 184);
+    }
+
+}
+
+
+@keyframes change {
+    to { 
+      background: #639091;
+    }
+    from {
+      background: rgb(183, 182, 165);
+    }
+}
+.de:hover {
+     width: 900px;
+}
+
+
+
+
+
+

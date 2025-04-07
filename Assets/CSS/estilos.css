@@ -1,0 +1,162 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+.body {
+  background-color: rgb(66, 63, 63);
+}
+
+.caja h1 {
+  color: rgb(232, 233, 239);
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(66, 63, 63);
+  position: relative;
+}
+
+.tarjeta img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta img:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta.text-con {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.tarjeta h2 {
+  color: white;
+}
+
+.ee {
+  background-color: #1ebc4a;
+  padding: 30px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 350px;
+  margin: 40px auto;
+  text-align: center;
+  color: white;
+  font-family: "Fira Sans Condensed", sans-serif;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  animation: change-color 2s linear infinite;
+}
+
+@keyframes change-color {
+  from {
+    background: #1ebc4a;
+  }
+  to {
+    background: rgb(4, 61, 184);
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.de {
+  background-color: #719394;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  animation: change 3s linear infinite;
+  transition: all 0.3s ease;
+}
+
+@keyframes change {
+  to {
+    background: #639091;
+  }
+  from {
+    background: rgb(183, 182, 165);
+  }
+}
+.de:hover {
+  width: 900px;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  padding: 50px 20px 20px;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 15px;
+  color: #00e676;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #cccccc;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #00e676;
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 15px;
+}
+
+.whatsapp-footer {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #00e676;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.whatsapp-footer:hover {
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+
+/*# sourceMappingURL=estilos.css.map */
