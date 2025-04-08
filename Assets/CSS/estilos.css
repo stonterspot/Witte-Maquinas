@@ -188,4 +188,69 @@
   line-height: 1.6;
 }
 
+.contenedor-camion {
+  position: relative;
+}
+
+.texto-trans {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 80%;
+  height: 80%;
+  font-size: 40px;
+  animation: texto 2s linear 1;
+}
+
+@keyframes texto {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.contenedor-izaje {
+  position: relative;
+}
+
+.texto-izaje {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 80%;
+  height: 65%;
+  font-size: 40px;
+  animation: texto 2s linear 1;
+}
+
+.contenedor-movimiento {
+  position: relative;
+}
+
+.texto-movimiento {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 80%;
+  height: 65%;
+  font-size: 40px;
+  animation: texto 2s linear 1;
+}
+
 /*# sourceMappingURL=estilos.css.map */
